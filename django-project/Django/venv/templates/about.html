@@ -1,0 +1,13 @@
+
+<h1>Recent List of Queries & their Urls posted on Stackexchange & yet to be answered. </h1>
+
+<br> <br>
+
+</ul>
+<body>
+ {% for key,value in dictionary.items %}
+ <h3>{{ key|linebreaks }}</h3>{{ value|urlize }}
+ <br>----<br>
+ {% endfor %}
+</body>
+
