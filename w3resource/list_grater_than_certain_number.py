@@ -13,3 +13,17 @@ for i in test:
         exit()
 else:
     print('all element of list is smaller than compare input')
+
+##################################################################################
+#Othere way to do it
+##################################################################################
+list_of_numbers = [2, 12, 9, 7, 12]
+z = int(input("enter a number:- "))
+y = (sorted(list_of_numbers))
+x = y[-1:]
+for i in range(len(x)):
+    xx = (x[i])
+    if xx < z:
+        print("input is grater")
+    else:
+        print("input is less")
