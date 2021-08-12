@@ -9,3 +9,5 @@ def myfunc(inpt):
             i = y.lower()
             test_list1.append(i)
     return ''.join(test_list1)
+
+print(myfunc('Anthropomorphism'))
